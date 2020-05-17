@@ -23,12 +23,12 @@
                     </button>
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul class="navbar-nav mr-auto">
-							<li class="nav-item active">
-								<a class="nav-link" href="#"> <i class="fa fa-home"
+							<li class="nav-item">
+								<a class="nav-link" href="{{ url_for('index') }}"> <i class="fa fa-home"
                                 aria-hidden="true"></i></a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="page.html"> <i
+								<a class="nav-link" href="#"> <i
                                 class="fa fa-unlock" aria-hidden="true"></i></a>
 							</li>
 							<li class="nav-item">
@@ -44,17 +44,9 @@
 				</nav>
 			</div>
 		</div>
-		<div class="row no-gutters">
-			<div class="col-md heading-centre heading-style-uppercase">
-				<h1 class="h1-text">Title goes here</h1>
-				<h3 class="h4-text">Subtitle goes here</h3>
-			</div>
-		</div>
 	</header>
-	<section>
         {% block content %}
         {% endblock %}
-	</section>
 	<footer>
 		<div class="row no-gutters">
 			<div class="col">

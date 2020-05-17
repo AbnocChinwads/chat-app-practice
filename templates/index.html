@@ -2,4 +2,14 @@
 {% extends 'base.html' %}
 
 {% block content %}
+<div class="row no-gutters">
+    <div class="col">
+        <form method = "POST">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+            <button>Go to chat!</button>
+        </form>
+    </div>
+</div>
+
 {% endblock %}

@@ -5,6 +5,7 @@ body {
     min-height: 100vh;
     background-color: #fff;
     color: #343a40;
+    padding-left: 2rem;
     padding-bottom: 2rem; /* Footer position */
 }
 
@@ -34,6 +35,12 @@ body {
 
 .custom-control-input:checked ~ .custom-control-label::after {
     background-color: #000 !important;
+}
+
+/*--------------------------------------------------------- Form*/
+
+form button {
+    border-radius: 25%;
 }
 
 /*--------------------------------------------------------- Footer*/
